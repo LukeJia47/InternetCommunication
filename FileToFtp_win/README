@@ -1,0 +1,9 @@
+源码链接：https://blog.csdn.net/sjdjjd6466446/article/details/107564485
+
+Windows系统下，Visual Studio项目属性中需要更改：
+
+1.字符集需要设置成 “未设置” 或者 ”使用多字节字符集”
+
+2.附加依赖项加入WinInet.Lib
+
+3.C/C++的常规选项中将SDL检查关闭
